@@ -26,18 +26,6 @@ header{
     padding-top: 20px;
 }
 
-#project{
-    padding:10px;
-    background-color: #7dbeb8;
-    border-width: 5px;
-    border-color: #e4ded0;
-}
-
-#project2{
-    padding: 10px;
-    background-color: #e32f21;
-    color: #e4ded0;
-}
 
 img{
     border-width: 20px;
@@ -48,18 +36,54 @@ img{
 /*index page*/
 
 #about{
-    background-color: #e32f21;
-    color: white;
+/*    background-color: #e32f21;*/
+    background-image: url('../img/about_tile.png');
+    max-height: 500px;
+    max-width: 500px;
+    height:500px;
+    width: 500px;
+    background-position: 0 0;
+}
+
+#about:hover{
+    background-position: 0 100%;
 }
 
 #projects{
-    background-color: #7dbeb8;
+     background-image: url('../img/project_tile.png');
+    max-height: 250px;
+    max-width: 500px;
+    height:250px;
+    width: 500px;
+    background-position: 0 0;
+}
+
+#projects:hover{
+    background-position: 0 100%;
 }
 
 #resume{
-    background-color: #6d748b;
+    background-image: url('../img/resume_tile.png');
+    max-height: 250px;
+    max-width: 250px;
+    height:250px;
+    width: 250px;
+    background-position: 0 0;
+}
+
+#resume:hover{
+    background-position: 0 100%;
 }
 
 #contact{
-    background-color: #abccbd;
+    background-image: url('../img/contact_tile.png');
+    max-height: 250px;
+    max-width: 250px;
+    height:250px;
+    width: 250px;
+    background-position: 0 0;
+}
+
+#contact:hover{
+    background-position: 0 100%;
 }
