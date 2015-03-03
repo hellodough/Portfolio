@@ -1,9 +1,20 @@
+@font-face{
+    font-family:AvenirMedium;
+    src: url(../font/Avenir.ttc);
+}
+
 #mainname{
     font-family: 'Rock Salt', cursive;
+    padding: 20px;
+}
+
+#mainname small{
+    font-family: Bebas;
+    font-size: 20px;
 }
 
 body{
-    font-family: 'Trebuchet MS';
+    font-family: 'AvenirMedium';
     background-color: #e4ded0;
 }
 
@@ -31,4 +42,24 @@ header{
 img{
     border-width: 20px;
     border-color: white;
+}
+
+
+/*index page*/
+
+#about{
+    background-color: #e32f21;
+    color: white;
+}
+
+#projects{
+    background-color: #7dbeb8;
+}
+
+#resume{
+    background-color: #6d748b;
+}
+
+#contact{
+    background-color: #abccbd;
 }
