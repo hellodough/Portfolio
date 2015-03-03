@@ -1,0 +1,34 @@
+#mainname{
+    font-family: 'Rock Salt', cursive;
+}
+
+body{
+    font-family: 'Trebuchet MS';
+    background-color: #e4ded0;
+}
+
+a{
+    color: #e32f21;
+}
+
+header{
+    padding-top: 20px;
+}
+
+#project{
+    padding:10px;
+    background-color: #7dbeb8;
+    border-width: 5px;
+    border-color: #e4ded0;
+}
+
+#project2{
+    padding: 10px;
+    background-color: #e32f21;
+    color: #e4ded0;
+}
+
+img{
+    border-width: 20px;
+    border-color: white;
+}
