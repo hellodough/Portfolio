@@ -5,7 +5,7 @@
 
 #mainname{
     font-family: 'Rock Salt', cursive;
-    padding: 20px;
+    padding: 10px;
 }
 
 #mainname small{
@@ -13,8 +13,11 @@
     font-size: 20px;
 }
 
+h1{
+    font-family: Bebas;
+}
 body{
-    font-family: 'AvenirMedium';
+    font-family: AvenirMedium;
     background-color: #e4ded0;
 }
 
@@ -86,4 +89,82 @@ img{
 
 #contact:hover{
     background-position: 0 100%;
+}
+
+/*About*/
+
+#bio{
+    font-family: AvenirMedium;
+}
+
+/*Contact*/
+#twitter{
+    background-image: url('../img/twitter_logo.png');
+    height: 100px;
+    width:100px;
+    float:left;
+}
+
+#twitter:hover{
+    background-image: url('../img/twitter_text.png');
+}
+
+#email{
+    background-image: url('../img/email_logo.png');
+    height: 100px;
+    width: 100px;
+    float:left;
+}
+
+#email:hover{
+    background-image: url('../img/email_text.png');
+}
+
+#linkedin{
+    background-image: url('../img/linkedin_logo.png');
+    height: 100px;
+    width:100px;
+    float: left;
+}
+
+#linkedin:hover{
+    background-image: url('../img/linkedin_text.png');
+}
+
+#pinterest{
+    background-image: url('../img/pinterest_logo');
+    height: 100px;
+    width:100px;
+    float: left;
+}
+
+#pinterest:hover{
+    background-image: url('../img/pinterest_text.png');
+}
+
+#instagram{
+    background-image: url('../img/instagram_logo.png');
+    height: 100px;
+    width:100px;
+    float: left;
+}
+
+#instagram:hover{
+    background-image: url('../img/instagram_text.png');
+}
+
+#hitrecord{
+    background-image: url('../img/hitrecord_logo.png');
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+#hitrecord:hover{
+    background-image: url('../img/hitrecord_text.png');
+}
+
+#logos{
+    padding-left: 100px;
+    align-content: center;
 }
