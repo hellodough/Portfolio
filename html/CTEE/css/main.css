@@ -1,0 +1,270 @@
+@media (max-width: @screen-xs){
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm){
+    body{font-size: 14px;}
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+body{
+    height: 100%;
+}
+
+#push,
+      #footer {
+        height: 60px;
+      }
+
+ #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+@media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+h1{
+    font-size: 4em;
+    font-family: Roboto Slab;
+}
+
+h4{
+    font-family: Roboto Slab;
+}
+
+#header{
+    margin-bottom: 0px;
+}
+
+.navbar{
+    background-color: black;
+    font-family: Roboto Slab;
+}
+
+.navbar-nav a{
+    /*	color: #528401;*/
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.navbar a:hover{
+    color: #eff358;
+    text-decoration: none;
+}
+
+.navbar a:active{
+    color: #af2d45;
+}
+
+.navbar li{
+    display: inline;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+
+#navbuttons{
+    color: white;
+}
+
+/*home*/
+#flag div{
+    height: 5px;
+}
+#content{
+    color: black;
+}
+
+.jumbotron{
+    background-image: url('http://upload.wikimedia.org/wikipedia/commons/d/dd/Lake_Oku_Cameroon.jpg');
+/*    background-image: url('../img/mainImage.jpg');*/
+    color: white;
+    font-family: Pacifico;
+    height: 700px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.jumbotron h1{
+    top: 20px;
+}
+
+.homeButton{
+    font-family: Roboto Slab; 
+    background: #af2d45; 
+    color: white; 
+    box-shadow: 5px 0 0 #af2d45, -5px 0 0 #af2d45 ;
+}
+
+.homeButton:hover{
+    background: black;
+    box-shadow: 5px 0 0 black, -5px 0 0 black;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#learn-more h3{
+    color: #528401;
+    font-family: Arvo;
+    
+}
+
+#learn-more p{
+    font-family: Arvo;
+}
+
+
+#learn-more{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.jumbotron div{
+    position: relative;
+    top: 400 px;
+}
+
+.footer{
+    /*	background-color: #e6dde1;*/
+    background-color: black;
+    color: white;
+    border-top: 1px solid #dbdbdb;
+    text-align: left;
+    min-height: 100px;
+    padding: 60px 0 79px;
+    margin: 0;
+    width: 100%;
+}
+
+#donate{
+    color:white;
+}
+
+#donate a:active{
+    text-decoration: none;
+}
+/*about*/
+.panel{
+    /*	text-align: center;*/
+    /*	width: 400px;*/
+    padding-top: 20px;
+    /*	margin-left: 400px;*/
+}
+
+.col-lg-4{
+    text-align: center;
+}
+
+
+
+/*events*/
+
+.col-xs-3{
+    text-align: center
+}
+
+.eventgrid{
+    width: 100%;
+}
+
+.eventgrid div{
+    padding: 15px;
+}
+
+.wostockpanel{
+    opacity: 90%;
+    width:100%;
+    position: relative;
+    text-align: center;
+}
+
+
+
+
+.wostockpanel h1{
+    color: white;
+    position: absolute; 
+    top: 130px; 
+    left: 0; 
+    width: 100%; 
+}
+
+
+.stuffthebuspanel{
+    text-align: center;
+    position: relative;
+    opacity: 90%;
+}
+.stuffthebuspanel h1{
+    color: white;
+    position: absolute; 
+    top: 130px; 
+    left: 0; 
+    width: 100%; 
+}
+
+.snowballbanner{
+    text-align: center;
+    position: relative;
+    opacity: 90%;
+}
+
+.snowballbanner h1{
+    color: white;
+    position: absolute; 
+    top: 130px; 
+    left: 0; 
+    width: 100%; 
+}
+
+/*contact*/
+
+.contactform{
+    border: 4px;
+    width: 400px;
+    margin-left: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*photo*/
+
+.hidden{
+    visibility: hidden;
+}
+
+button{
+    background:transparent;
+    border: none;
+}
+
+.fixFooter{
+    position: absolute;
+    bottom: 0px;
+}
