@@ -168,3 +168,9 @@ img{
     padding-left: 100px;
     align-content: center;
 }
+
+.underConstruction {
+    margin: auto;
+    text-align: center;
+    width: 40%;
+}
