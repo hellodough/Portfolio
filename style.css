@@ -31,13 +31,8 @@
 }
 
 .about-parallax {
-    background-attachment: fixed;
-    background-image: url("https://s3.us-east-2.amazonaws.com/annadonut/images/wynwood_horizontal.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    padding: 10px;
+    background-image: url("https://s3.us-east-2.amazonaws.com/annadonut/images/wynwood_anna.jpg");
+    height: 800px;
 }
 
 .speech-bubble {
@@ -45,24 +40,46 @@
     border: solid;
     box-shadow: -5px 9px 0 black;
     display: block;
-    margin: 20px;
-    padding: 20px;
+    font-size: 25px;
+    margin: 30px;
+    padding: 25px;
     position: absolute;
-    right: 50px;
     top: 150px;
-    width: 35%;
 }
 
 .contact-info {
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .footer {
     padding: 10px;
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (min-width: 768px) {
     .about-parallax {
-        background-image: url("https://s3.us-east-2.amazonaws.com/annadonut/images/wynwood_anna.jpg");
+        background-attachment: fixed;
+        background-image: url("https://s3.us-east-2.amazonaws.com/annadonut/images/wynwood_horizontal.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        padding: 10px;
+    }
+    
+    .speech-bubble {
+        background-color: white;
+        border: solid;
+        box-shadow: -5px 9px 0 black;
+        display: block;
+        font-size: 20px;
+        margin: 20px;
+        padding: 20px;
+        position: absolute;
+        right: 50px;
+        top: 150px;
+        width: 35%;
+    }
+    .contact-info {
+        font-size: 10px;
     }
 }
