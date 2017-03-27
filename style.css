@@ -32,7 +32,7 @@
 
 .about-parallax {
     background-image: url("https://s3.us-east-2.amazonaws.com/annadonut/images/wynwood_anna.jpg");
-    height: 800px;
+    height: 500px;
 }
 
 .speech-bubble {
@@ -40,7 +40,7 @@
     border: solid;
     box-shadow: -5px 9px 0 black;
     display: block;
-    font-size: 25px;
+    font-size: 15px;
     margin: 30px;
     padding: 25px;
     position: absolute;
@@ -48,7 +48,7 @@
 }
 
 .contact-info {
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .footer {
