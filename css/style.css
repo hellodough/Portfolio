@@ -1,0 +1,16 @@
+
+.face-pic {
+    border-radius: 50%;
+    position: relative;
+    left: 30px;
+    width: 40vw;
+}
+
+.lower-it {
+    margin-top: 25%;
+}
+
+.right-side {
+    position: relative;
+    width: 50vw;
+}
