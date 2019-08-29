@@ -1,16 +1,41 @@
-
 .face-pic {
-    border-radius: 50%;
-    position: relative;
-    left: 30px;
-    width: 40vw;
+  width: 100%;
 }
 
-.lower-it {
-    margin-top: 25%;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+  grid-column-gap: 24px;
 }
 
-.right-side {
-    position: relative;
-    width: 50vw;
+.middle-align {
+  grid-row: 2;
+}
+
+h1 {
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 48px;
+}
+
+@media (max-width: 700px) {
+  .description {
+    grid-row: 2;
+  }
+
+  .portrait {
+    display: none;
+  }
+
+  .container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
 }
