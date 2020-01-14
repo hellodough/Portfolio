@@ -1,21 +1,25 @@
-.face-pic {
-  width: 100%;
-}
-
 .container {
   display: grid;
+  align-items: center;
+  justify-items: flex-end;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
   height: 100vh;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   margin-left: 24px;
-  margin-right: 24px;
   grid-column-gap: 24px;
 }
 
-.middle-align {
+/* .middle-align {
   grid-row: 2;
+} */
+
+.portrait {
+  height: 100vh;
+}
+
+.portrait img {
+  height: 100%;
 }
 
 h1 {
@@ -23,19 +27,40 @@ h1 {
   font-size: 48px;
 }
 
-@media (max-width: 700px) {
-  .description {
-    grid-row: 2;
+@media (max-width: 1000px) {
+  .container {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    grid-template-columns: 1fr;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(0, 0, 0, .3)),
+      url("../images/black_star.jpg");
+    background-size: cover;
+  }
+
+  img {
+    width: 100%;
   }
 
   .portrait {
     display: none;
+    /* width: 100vw;
+    height: auto; */
   }
-
-  .container {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
+  .description {
+    font-weight: 600;
+    top: 135px;
+    left: 17px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  a {
+    color: rgb(20, 26, 87);
   }
 }
