@@ -14,35 +14,54 @@
 
     <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,600|Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,600|Covered+By+Your+Grace&display=swap"
+      rel="stylesheet"
+    />
+    <link href="http://fonts.cdnfonts.com/css/fjalla-one" rel="stylesheet" />
+    <style>
+      @import url("http://fonts.cdnfonts.com/css/fjalla-one");
+    </style>
 
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/style.css" />
-
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/favicon.png" />
   </head>
-  <body>
-    <div class="container">
-      <div class="description">
-        <h1>Anna Do</h1>
-        <p>
-          Hey, I'm Anna. I'm a Chicago based UI developer. I made this page
-          because I have the domain name and I don't know what to do with it.
-          This is just a placeholder until I figure it out. Meanwhile, come
-          check me out on social media.
-        </p>
-        <a href="https://instagram.com/anna.dough/">instagram</a> |
-        <a href="http://www.linkedin.com/in/doanna">linkedin</a>
+  <body class="bg-sky-100">
+    <!-- links -->
+    <div class="pt-8 pr-8 text-right flex gap-x-8 justify-end decoration-4">
+      <div>
+        <a href="http://www.linkedin.com/in/doanna" class="hover:underline"
+          >LinkedIn</a
+        >
       </div>
-      <div class="portrait">
-        <img
-          src="images/black_star.jpg"
-          alt="Anna sitting on a rock at Black Star waterfalls"
-        />
+      <div>
+        <a href="https://instagram.com/anna.dough/" class="hover:underline"
+          >Instagram</a
+        >
+      </div>
+    </div>
+    <!-- main content -->
+    <div class="flex items-center justify-center h-screen">
+      <div class="px-8 md:max-w-[50%]">
+        <div class="description text-xl text-center leading-relaxed">
+          <div class="text-4xl md:text-6xl pb-4 whitespace-nowrap">
+            👋,
+            <h1 class="inline uppercase">I'm Anna Do</h1>
+          </div>
+          <p class="font-light">
+            I’m a <span class="font-bold">User Experience Engineer</span> based
+            in <span class="font-bold">📍Chicago</span> with experience building
+            interfaces and applications for the web. I am passionate about
+            improving user experiences through web accessibility and performant
+            pages and am always down to learn something new.
+          </p>
+        </div>
       </div>
     </div>
   </body>
